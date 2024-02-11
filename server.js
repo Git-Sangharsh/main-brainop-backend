@@ -54,7 +54,7 @@ const signupSchema = new mongoose.Schema({
 const signUpModel = mongoose.model("signup", signupSchema);
 
 app.get("/", (req, res) => {
-  res.send("<h1>hello!</h1>");
+  res.send("<h1>welcome!</h1>");
 });
 
 app.post("/signup", async (req, res) => {
